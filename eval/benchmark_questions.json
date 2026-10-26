@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Where can a consumer file a complaint for a defective refrigerator worth Rs 35,000?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "District Consumer Commission under Section 34 & 35 of Consumer Protection Act 2019 (Pecuniary limit up to 50 Lakhs).",
+    "gold_citation": "Consumer Protection Act 2019, Section 34"
+  },
+  {
+    "id": 2,
+    "question": "What is the time limit for a CPIO to provide information requested under the RTI Act?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Within 30 days under Section 7(1), or within 48 hours if it concerns the life or liberty of a person.",
+    "gold_citation": "Right to Information Act 2005, Section 7(1)"
+  },
+  {
+    "id": 3,
+    "question": "What are the eligibility requirements for the PM-KISAN annual 6000 rupees benefit?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "Small and marginal farmer families owning cultivable land with Aadhaar eKYC completed; tax payers excluded.",
+    "gold_citation": "PM-KISAN Operational Guidelines 2019"
+  },
+  {
+    "id": 4,
+    "question": "What is the pecuniary jurisdiction of the State Consumer Disputes Redressal Commission?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Value of goods or services exceeding 50 Lakh rupees up to 2 Crore rupees under Section 47.",
+    "gold_citation": "Consumer Protection Act 2019, Section 47"
+  },
+  {
+    "id": 5,
+    "question": "Under what section can an aggrieved citizen file a First Appeal under RTI?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Section 19(1) of the RTI Act within 30 days to the First Appellate Authority.",
+    "gold_citation": "Right to Information Act 2005, Section 19"
+  },
+  {
+    "id": 6,
+    "question": "दुकानदाराने वॉशिंग मशीन नादुरुस्त दिल्यास कोणत्या कायद्यानुसार तक्रार करता येते?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "ग्राहक संरक्षण कायदा २०१९ च्या कलम ३५ अंतर्गत जिल्हा ग्राहक आयोगाकडे तक्रार करता येते.",
+    "gold_citation": "Consumer Protection Act 2019, Section 35"
+  },
+  {
+    "id": 7,
+    "question": "What health coverage amount is provided under Ayushman Bharat PM-JAY?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "Rs 5 Lakh per family per year for secondary and tertiary hospitalization across empanelled hospitals.",
+    "gold_citation": "Ayushman Bharat PM-JAY Guidelines"
+  },
+  {
+    "id": 8,
+    "question": "What penalty can be imposed on a CPIO for refusing an RTI application without reasonable cause?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Rs 250 each day up to a maximum limit of Rs 25,000 under Section 20.",
+    "gold_citation": "Right to Information Act 2005, Section 20"
+  }
+]

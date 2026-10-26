@@ -1,0 +1,26 @@
+AYUSHMAN BHARAT PRADHAN MANTRI JAN AROGYA YOJANA (AB-PMJAY)
+NATIONAL HEALTH AUTHORITY (NHA), MINISTRY OF HEALTH & FAMILY WELFARE, GOI
+
+1. Scheme Scope & Cover:
+Ayushman Bharat PM-JAY is the world's largest government-funded health assurance scheme. It provides a health cover of Rs. 5,00,000 (Five Lakh Rupees) per family per year for secondary and tertiary care hospitalization across public and private empanelled hospitals in India.
+
+2. Beneficiary Entitlement:
+(a) PM-JAY is an entitlement-based scheme. Entitlement is decided based on deprivation criteria in the Socio-Economic and Caste Census 2011 (SECC 2011) for rural and urban areas.
+(b) Rural criteria: Households living in one room with kucha walls/roof, female-headed households with no adult male member aged 16-59, households with disabled members and no able-bodied adult, SC/ST households, landless households deriving major income from manual casual labor.
+(c) Urban criteria: 11 defined occupational categories of workers (e.g., ragpicker, beggar, domestic worker, street vendor, construction worker, transport worker, shop worker, sanitation worker).
+(d) Expanded Coverage (2024 Amendment): All senior citizens aged 70 years and above, irrespective of income status or SECC database, are eligible for a distinct top-up cover of Rs. 5,00,000 per year under the Ayushman Vay Vandana Card.
+
+3. Key Features:
+(a) Cashless and paperless access to services for the beneficiary at the point of service (empanelled hospital).
+(b) No restriction on family size, age, or gender.
+(c) Pre-existing conditions are covered from day one of the policy.
+(d) Covers up to 3 days of pre-hospitalization and 15 days of post-hospitalization expenses like medicines, diagnostics, and food.
+(e) Portable across any empanelled hospital in the country (inter-state portability).
+
+4. Ayushman Card Creation Requirements:
+(a) Verification of name in SECC database or Ration Card / PMJAY ID via mera.pmjay.gov.in portal or nearest Ayushman Arogya Mandir / CSC.
+(b) Aadhaar card for individual electronic Know Your Customer (eKYC) authentication.
+(c) Active mobile number for OTP verification.
+
+5. Grievances and Fraud Control:
+Beneficiaries can register grievances on Central Grievance Redressal and Management System (CGRMS) at cgrms.pmjay.gov.in or by calling 14555. Hospitals denying cashless treatment or charging extra face de-empanelment and recovery penalty under National Anti-Fraud Unit (NAFU) regulations.

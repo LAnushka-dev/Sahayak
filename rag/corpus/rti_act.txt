@@ -1,0 +1,33 @@
+RIGHT TO INFORMATION ACT, 2005 (Act No. 22 of 2005)
+MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS, GOVERNMENT OF INDIA
+
+Section 2(f) - "Information" means any material in any form, including records, documents, memos, e-mails, opinions, advices, press releases, circulars, orders, logbooks, contracts, reports, papers, samples, models, data material held in any electronic form and information relating to any private body which can be accessed by a public authority under any other law for the time being in force.
+
+Section 2(h) - "Public Authority" means any authority or body or institution of self-government established or constituted by or under the Constitution, by any other law made by Parliament or State Legislature, or by notification issued or order made by the appropriate Government, and includes any body owned, controlled or substantially financed directly or indirectly by funds provided by the appropriate Government.
+
+Section 6 - Request for obtaining information:
+(1) A person, who desires to obtain any information under this Act, shall make a request in writing or through electronic means in English or Hindi or in the official language of the area in which the application is being made, accompanying such fee as may be prescribed, to:
+(a) the Central Public Information Officer (CPIO) or State Public Information Officer (SPIO); or
+(b) the Central Assistant Public Information Officer (CAPIO) or State Assistant Public Information Officer.
+(2) An applicant making request for information shall not be required to give any reason for requesting the information or any other personal details except those that may be necessary for contacting him.
+(3) Where an application is made to a public authority requesting information which is held by another public authority, the public authority shall transfer the application to that other authority within five days and inform the applicant immediately.
+
+Section 7 - Disposal of request:
+(1) The CPIO or SPIO on receipt of a request under section 6 shall, as expeditiously as possible, and in any case within thirty days of the receipt of the request, either provide the information on payment of such fee as may be prescribed or reject the request for any of the reasons specified in sections 8 and 9.
+Provided that where the information sought for concerns the life or liberty of a person, the same shall be provided within forty-eight hours of the receipt of the request.
+(2) If the CPIO or SPIO fails to give a decision on the request within the period specified, the CPIO or SPIO shall be deemed to have refused the request.
+(6) The person making request for the information shall be provided the information free of any charge where a public authority fails to comply with the time limits specified in sub-section (1).
+
+Section 8 - Exemption from disclosure of information:
+(1) Notwithstanding anything contained in this Act, there shall be no obligation to give any citizen:
+(a) information, disclosure of which would prejudicially affect the sovereignty and integrity of India, the security, strategic, scientific or economic interests of the State;
+(b) information which has been expressly forbidden to be published by any court of law or tribunal or the disclosure of which may constitute contempt of court;
+(d) information including commercial confidence, trade secrets or intellectual property, the disclosure of which would harm the competitive position of a third party;
+(j) information which relates to personal information the disclosure of which has no relationship to any public activity or interest, or which would cause unwarranted invasion of the privacy of the individual.
+
+Section 19 - Appeal:
+(1) Any person who, does not receive a decision within the time specified in sub-section (1) or clause (a) of sub-section (3) of section 7, or is aggrieved by a decision of the CPIO or SPIO, may within thirty days from the expiry of such period or from the receipt of such a decision prefer an appeal to such officer who is senior in rank to the CPIO or SPIO (First Appellate Authority).
+(3) A second appeal against the decision under sub-section (1) shall lie within ninety days from the date on which the decision should have been made or was actually received, with the Central Information Commission (CIC) or State Information Commission (SIC).
+
+Section 20 - Penalties:
+Where the Central Information Commission or the State Information Commission finds that the CPIO or SPIO has, without any reasonable cause, refused to receive an application or has not furnished information within the time specified or knowingly given incorrect, incomplete or misleading information, it shall impose a penalty of two hundred and fifty rupees each day till application is received or information is furnished, so however, the total amount of such penalty shall not exceed twenty-five thousand rupees.

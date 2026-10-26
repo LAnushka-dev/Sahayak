@@ -1,0 +1,30 @@
+# Core Web & API Framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+requests>=2.31.0
+
+# Database & ORM
+SQLAlchemy>=2.0.28
+PyMySQL>=1.1.0
+
+# RAG & Machine Learning
+numpy>=1.26.0
+scikit-learn>=1.4.0
+rank-bm25>=0.2.2
+pillow>=10.2.0
+
+# Interactive Demo UI
+gradio>=4.20.0
+
+# Optional Production Connectors (Installed when available)
+# neo4j>=5.18.0
+# faiss-cpu>=1.8.0
+# pytesseract>=0.3.10
+# langchain>=0.1.13
+# langgraph>=0.0.30
+
+# Testing & CI
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

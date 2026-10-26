@@ -1,0 +1,32 @@
+PRADHAN MANTRI KISAN SAMMAN NIDHI (PM-KISAN)
+MINISTRY OF AGRICULTURE & FARMERS WELFARE, GOVERNMENT OF INDIA
+
+1. Scheme Objective:
+Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector Scheme to augment the income of all landholding farmer families across the country to enable them to take care of expenses related to agriculture and allied activities as well as domestic needs.
+
+2. Financial Benefits:
+Under the Scheme, financial benefit of Rs. 6,000/- per year is provided to eligible beneficiary farmer families across the country in three equal installments of Rs. 2,000/- each, every four months (April-July, August-November, and December-March).
+The financial assistance is transferred directly into the bank accounts of the beneficiaries through Direct Benefit Transfer (DBT) mode linked with Aadhaar.
+
+3. Definition of Beneficiary Family:
+A landholder farmer family is defined as a family consisting of husband, wife and minor children who own cultivable land as per the land records of the concerned State/UT.
+
+4. Mandatory Eligibility Criteria:
+(a) The farmer family must possess cultivable landholding in their name as per official revenue records.
+(b) Mandatory Aadhaar authentication (eKYC) must be completed via OTP on PM-KISAN portal (pmkisan.gov.in) or biometric via CSC (Common Service Centre).
+(c) Bank account must be seeded and mapped with Aadhaar and NPCI (National Payments Corporation of India) for DBT compliance.
+(d) Land details must be seeded and verified in the State revenue land record database.
+
+5. Exclusion Categories (Ineligible persons):
+The following categories of beneficiaries of higher economic status shall not be eligible for benefit under the scheme:
+(a) All Institutional Landholders.
+(b) Farmer families in which one or more of its members belong to the following categories:
+    i. Former and present holders of constitutional posts.
+    ii. Former and present Ministers/State Ministers and former/present Members of Lok Sabha/Rajya Sabha/State Legislative Assemblies/State Legislative Councils, former and present Mayors of Municipal Corporations, former and present Chairpersons of District Panchayats.
+    iii. All serving or retired officers and employees of Central/State Government Ministries/Offices/Departments and their field units, Central or State PSEs and Attached offices/Autonomous Institutions under Government as well as regular employees of Local Bodies (Excluding Multi Tasking Staff / Class IV / Group D employees).
+    iv. All superannuated/retired pensioners whose monthly pension is Rs. 10,000/- or more (Excluding Class IV/Group D employees).
+    v. All Persons who paid Income Tax in last assessment year.
+    vi. Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with Professional bodies and carrying out profession by undertaking practice.
+
+6. Grievance Redressal Mechanism:
+Grievances regarding non-receipt of installment or pending approval can be lodged through the PM-KISAN Portal 'Helpdesk' module or toll-free number 155261 / 1800115526, or escalated to District Level Grievance Redressal Committee headed by the District Collector.

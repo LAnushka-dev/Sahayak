@@ -1,0 +1,61 @@
+{
+  "name": "Sahayak Automated Case Dispatch & Follow-Up",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "sahayak-dispatch",
+        "options": {}
+      },
+      "id": "node-webhook-1",
+      "name": "FastAPI Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "fromEmail": "notifications@sahayak.gov.in",
+        "toEmail": "={{ $json.body.recipient_email }}",
+        "subject": "=Official Legal Grievance Draft - Case Ref #{{ $json.body.case_id || 'NEW' }}",
+        "text": "=Dear {{ $json.body.complainant_name }},\n\nYour formal legal petition drafted by Sahayak is ready.\n\n=== FORMAL DRAFT ===\n{{ $json.body.draft_petition }}\n\nNext steps: Submit online via edaakhil.nic.in or print for your local forum.\n\nRegards,\nSahayak Automated Case Assistant"
+      },
+      "id": "node-email-2",
+      "name": "Send Draft Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [500, 200]
+    },
+    {
+      "parameters": {
+        "calendar": "primary",
+        "start": "={{ new Date(Date.now() + 30*24*60*60*1000).toISOString() }}",
+        "summary": "=Statutory Follow-up: 30-Day Response Deadline for Case #{{ $json.body.case_id || 'NEW' }}",
+        "description": "=Check status on e-Daakhil / RTI portal. If no response received, prepare First Appeal under Section 19."
+      },
+      "id": "node-calendar-3",
+      "name": "Schedule 30-Day Reminder",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1,
+      "position": [500, 420]
+    }
+  ],
+  "connections": {
+    "FastAPI Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Send Draft Email",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Schedule 30-Day Reminder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
