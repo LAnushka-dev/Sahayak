@@ -100,16 +100,17 @@ def chat_endpoint(request: ChatRequest, current_user: User = Depends(get_current
     Invokes LangGraph Multi-Agent Orchestrator:
     Router -> Hybrid Retriever -> Neo4j Graph -> Eligibility -> Drafter -> Critic Loop
     """
-    user_id = str(current_user.id) if current_user else "anonymous"
+    user_id = str(current_user.id) if (current_user and hasattr(current_user, "id")) else "anonymous"
     result = run_sahayak(
         query=request.query,
         ocr_extracted_text=request.ocr_extracted_text,
         user_id=user_id,
-        session_id=request.session_id or "default"
+        session_id=request.session_id or "default",
+        preferred_language=request.preferred_language
     )
 
     # Persist case to MySQL / SQLite if user is logged in
-    if current_user:
+    if current_user and hasattr(current_user, "id") and hasattr(db, "add"):
         new_case = CaseHistory(
             user_id=current_user.id,
             query=request.query,
