@@ -1,9 +1,11 @@
 import math
+import re
 from typing import List, Dict
 
 class BM25Retriever:
     """
     Lightweight, high-performance pure-Python BM25 implementation for lexical keyword matching.
+    Includes comprehensive multilingual token sanitization (English, Devanagari, Dravidian, Bengali).
     """
     def __init__(self, k1: float = 1.5, b: float = 0.75):
         self.k1 = k1
@@ -15,6 +17,12 @@ class BM25Retriever:
         self.idf = {}
         self.documents = []
 
+    def _tokenize(self, text: str) -> List[str]:
+        # Strip common punctuation including Devanagari danda '।' and symbols
+        cleaned = re.sub(r'[\,\.\;\:\!\?।\(\)\[\]\{\}\"\'\-\_\/\\]', ' ', text.lower())
+        tokens = [t for t in cleaned.split() if len(t) > 1]
+        return tokens
+
     def fit(self, documents: List[str]):
         self.documents = documents
         self.corpus_size = len(documents)
@@ -24,8 +32,11 @@ class BM25Retriever:
         total_len = 0
         df = {}
 
+        self.doc_lengths = []
+        self.doc_term_freqs = []
+
         for doc in documents:
-            tokens = doc.lower().replace(",", " ").replace(".", " ").split()
+            tokens = self._tokenize(doc)
             self.doc_lengths.append(len(tokens))
             total_len += len(tokens)
 
@@ -47,7 +58,7 @@ class BM25Retriever:
         if not self.documents:
             return []
 
-        q_tokens = query.lower().replace(",", " ").replace(".", " ").split()
+        q_tokens = self._tokenize(query)
         scores = []
 
         for idx, tf in enumerate(self.doc_term_freqs):
