@@ -10,6 +10,21 @@
 {"text": "Hotel charged hidden unfair service fee despite statutory consumer rules", "label": "CONSUMER_GRIEVANCE"}
 {"text": "व्यापाऱ्याने एक्सपायरी झालेली औषधे विकली, तक्रार निवारण कसे करावे?", "label": "CONSUMER_GRIEVANCE"}
 {"text": "कार वॉरंटी असतानाही सर्व्हिस सेंटरने ५० हजार रुपयांचे बिल लावले", "label": "CONSUMER_GRIEVANCE"}
+{"text": "I purchased a television for Rs 45000 and the screen went blank after a week, company refuses repair", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Courier company lost my parcel worth 15000 and refuses to compensate me", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Food delivery app delivered stale contaminated food causing food poisoning, need refund and medical costs", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Brand new microwave oven short circuited, company service center says warranty is void unfairly", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Real estate developer changed apartment floor plan without consumer consent and delayed handover", "label": "CONSUMER_GRIEVANCE"}
+{"text": "दुकानदाराने घेतलेल्या पैशांची पावती दिली नाही आणि सदोष माल बदलून देण्यास नकार दिला", "label": "CONSUMER_GRIEVANCE"}
+{"text": "गाडीच्या एअरबॅग अपघातात उघडल्या नाहीत, मॅन्युफॅक्चरिंग डिफेक्ट विरुद्ध ग्राहक न्यायालयात तक्रार कशी करावी?", "label": "CONSUMER_GRIEVANCE"}
+{"text": "दुकानदार ने वारंटी पीरियड में फ्रिज ठीक करने से मना कर दिया और गाली-गलौज की", "label": "CONSUMER_GRIEVANCE"}
+{"text": "ऑनलाइन शॉपिंग साइट ने रीफंड देने का वादा किया था पर 2 महीने से पैसे नहीं दिए", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Private hospital overcharged by 2 lakhs above package price for emergency surgery without itemized bill", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Mobile network provider deducted balance without consent for value added services", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Electronic store refused to honour price match and sold refurbished phone as brand new", "label": "CONSUMER_GRIEVANCE"}
+{"text": "I want to file a consumer complaint because of defective laptop and poor customer service", "label": "CONSUMER_GRIEVANCE"}
+{"text": "Seller refuses refund for broken screen, how to file case in district commission?", "label": "CONSUMER_GRIEVANCE"}
+{"text": "ग्राहक न्यायालयात सदोष वॉशिंग मशीन बाबत तक्रार कशी दाखल करावी?", "label": "CONSUMER_GRIEVANCE"}
 {"text": "How do I file an application to see road construction tender documents in my municipal ward?", "label": "RTI_QUERY"}
 {"text": "What is the procedure to file First Appeal if CPIO fails to provide information in 30 days?", "label": "RTI_QUERY"}
 {"text": "I want to inspect government school budget allocation details under Section 6", "label": "RTI_QUERY"}
@@ -20,6 +35,18 @@
 {"text": "Public authority denied information citing trade secrets Section 8 exemption", "label": "RTI_QUERY"}
 {"text": "महानगरपालिकेच्या कामांची माहिती मागवण्यासाठी जन माहिती अधिकाऱ्यास अर्ज कसा लिहावा?", "label": "RTI_QUERY"}
 {"text": "ग्रामपंचायतीच्या निधी खर्चाची माहिती आरटीआय अंतर्गत कशी मिळवावी?", "label": "RTI_QUERY"}
+{"text": "How can I obtain certified copies of land survey map from Tehsildar office using RTI?", "label": "RTI_QUERY"}
+{"text": "CPIO has not replied to my RTI query for 45 days, what action can be taken against the officer?", "label": "RTI_QUERY"}
+{"text": "Can I seek information about government hospital medicine procurement under Right to Information Act?", "label": "RTI_QUERY"}
+{"text": "How to pay RTI application fee online on rtionline.gov.in portal?", "label": "RTI_QUERY"}
+{"text": "What are the penalty provisions under Section 20 if public information officer gives false data?", "label": "RTI_QUERY"}
+{"text": "आर.टी.आई. कानून के तहत सूचना प्राप्त करने की अंतिम समय सीमा क्या है?", "label": "RTI_QUERY"}
+{"text": "प्रथम अपीलीय अधिकारी के पास प्रथम अपील दर्ज करने का प्रारूप क्या है?", "label": "RTI_QUERY"}
+{"text": "पोलिस स्टेशनमधील एफआयआरच्या तपासाची सद्यस्थिती जाणून घेण्यासाठी माहिती अधिकार अर्ज कसा करावा?", "label": "RTI_QUERY"}
+{"text": "शासकीय अनुदानाच्या खर्चाची माहिती मागवण्यासाठी जन माहिती अधिकाऱ्याचा पत्ता कसा शोधायचा?", "label": "RTI_QUERY"}
+{"text": "How to file an RTI request under Section 6 for municipal budget expenditure?", "label": "RTI_QUERY"}
+{"text": "CPIO refused information on road contract, how to file first appeal under Section 19?", "label": "RTI_QUERY"}
+{"text": "माहिती अधिकार कायदा २००५ अंतर्गत शासकीय निधी खर्चा बाबत माहिती कशी मागवावी?", "label": "RTI_QUERY"}
 {"text": "What are the eligibility criteria for small farmers under PM-KISAN 6000 rupees scheme?", "label": "WELFARE_SCHEME"}
 {"text": "How can a senior citizen aged 72 get 5 lakh free treatment card under Ayushman Bharat?", "label": "WELFARE_SCHEME"}
 {"text": "माझ्याकडे २ एकर जमीन आहे, मला पीएम किसान योजनेचा हप्ता कसा मिळेल?", "label": "WELFARE_SCHEME"}
@@ -28,9 +55,31 @@
 {"text": "How to update Aadhaar eKYC on PM Kisan portal for installment release?", "label": "WELFARE_SCHEME"}
 {"text": "Eligibility guidelines for Ayushman Vay Vandana Card senior citizen health scheme", "label": "WELFARE_SCHEME"}
 {"text": "शेतकरी कुटुंबासाठी डीबीटी बँक खात्याला आधार लिंक कसे करावे?", "label": "WELFARE_SCHEME"}
+{"text": "Who is excluded from receiving PM-KISAN benefits even if they own agricultural land?", "label": "WELFARE_SCHEME"}
+{"text": "Does Ayushman Bharat cover pre-existing medical conditions and major surgeries?", "label": "WELFARE_SCHEME"}
+{"text": "My PM Kisan installment is stuck due to land seeding problem in revenue records, how to rectify?", "label": "WELFARE_SCHEME"}
+{"text": "How to check name in SECC list for Ayushman Bharat PM-JAY 5 lakh hospitalization benefit?", "label": "WELFARE_SCHEME"}
+{"text": "Can tenant farmers and agricultural labourers apply for PM Kisan Samman Nidhi?", "label": "WELFARE_SCHEME"}
+{"text": "प्रधानमंत्री किसान सम्मान निधि योजना के तहत 6000 रुपये पाने के लिए पात्रता क्या है?", "label": "WELFARE_SCHEME"}
+{"text": "आयुष्मान कार्ड से किन-किन सरकारी और प्राइवेट अस्पतालों में मुफ्त इलाज मिलता है?", "label": "WELFARE_SCHEME"}
+{"text": "वय वर्षे ७० वरील ज्येष्ठ नागरिकांसाठी आयुष्मान भारत योजनेचा लाभ कसा मिळवावा?", "label": "WELFARE_SCHEME"}
+{"text": "पीएम किसान सन्मान निधीमध्ये नवीन नोंदणीसाठी ७/१२ उतारा आणि आधार कार्ड कसे अपलोड करावे?", "label": "WELFARE_SCHEME"}
+{"text": "What are eligibility guidelines for PM-KISAN 6000 annual installment?", "label": "WELFARE_SCHEME"}
+{"text": "How can my family apply for Ayushman Bharat 5 lakh health card on official portal?", "label": "WELFARE_SCHEME"}
+{"text": "पीएम किसान किंवा कृषी सबसिडीचा लाभ मिळवण्यासाठी कोणती कागदपत्रे लागतात?", "label": "WELFARE_SCHEME"}
 {"text": "Where is the nearest legal aid dispensary located in Pune?", "label": "GENERAL_INQUIRY"}
 {"text": "What is the office timing of the District Court?", "label": "GENERAL_INQUIRY"}
 {"text": "Hello, can you help me understand how Justice AI works?", "label": "GENERAL_INQUIRY"}
 {"text": "नमस्ते, तुम्ही मला काय मदत करू शकता?", "label": "GENERAL_INQUIRY"}
 {"text": "What services and acts does this legal assistant support?", "label": "GENERAL_INQUIRY"}
 {"text": "Can you explain legal aid rights under National Legal Services Authority?", "label": "GENERAL_INQUIRY"}
+{"text": "How can I contact a free legal aid advocate if I cannot afford lawyer fees?", "label": "GENERAL_INQUIRY"}
+{"text": "What is the role of Lok Adalat in resolving civil disputes amicably?", "label": "GENERAL_INQUIRY"}
+{"text": "Good morning, I need general guidance regarding legal documentation in India", "label": "GENERAL_INQUIRY"}
+{"text": "What is the difference between a civil court case and a consumer commission petition?", "label": "GENERAL_INQUIRY"}
+{"text": "नमस्कार, मला भारतीय कायदे आणि तक्रार निवारण प्रक्रियेबद्दल जाणून घ्यायचे आहे", "label": "GENERAL_INQUIRY"}
+{"text": "आप कौन-कौन से सरकारी कानूनों और योजनाओं में नागरिकों की सहायता करते हैं?", "label": "GENERAL_INQUIRY"}
+{"text": "Where can I find free legal aid clinic in my district?", "label": "GENERAL_INQUIRY"}
+{"text": "Can you explain the procedure and rules for Lok Adalat dispute settlement?", "label": "GENERAL_INQUIRY"}
+{"text": "विधी सेवा प्राधिकरण आणि मोफत वकील सहाय्याबद्दल सविस्तर माहिती सांगा", "label": "GENERAL_INQUIRY"}
+{"text": "नमस्ते, मला भारतीय कायदे आणि विधी सेवा प्राधिकरणाविषयी जाणून घ्यायचे आहे", "label": "GENERAL_INQUIRY"}
