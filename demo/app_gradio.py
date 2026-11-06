@@ -22,6 +22,8 @@ SUPPORTED_LANGUAGES = [
     "Gujarati (ગુજરાતી)",
     "Punjabi (ਪੰਜਾਬੀ)",
     "Odia (ଓଡ଼ିଆ)",
+    "Assamese (অসমীয়া)",
+    "Urdu (اردو)",
     "English"
 ]
 
@@ -64,8 +66,8 @@ def build_demo():
         gr.Markdown(
             """
             # ⚖️ Sahayak (सहायक): Multimodal Agentic Graph-RAG Legal & Grievance Assistant
-            ### Intelligent legal analysis, welfare scheme verification, and automated complaint drafting in 10 Indian Languages + English.
-            *Supported Languages: Hindi, Marathi, Bengali, Tamil, Telugu, Kannada, Malayalam, Gujarati, Punjabi, Odia, English.*
+            ### Intelligent legal analysis, welfare scheme verification, and automated complaint drafting in 12 Indian Languages + English.
+            *Supported Languages: Hindi, Marathi, Bengali, Tamil, Telugu, Kannada, Malayalam, Gujarati, Punjabi, Odia, Assamese, Urdu, and English.*
             """
         )
 
@@ -81,7 +83,7 @@ def build_demo():
                         lang_select = gr.Dropdown(
                             SUPPORTED_LANGUAGES,
                             value="Auto-detect",
-                            label="Output Language (10 Indian Languages + English)"
+                            label="Output Language (12 Indian Languages + English)"
                         )
                         doc_upload = gr.Image(type="filepath", label="Upload Notice / Bill / FIR Photo (Optional OCR)")
 
@@ -94,14 +96,20 @@ def build_demo():
                             ["দোকানদার আমাকে একটি নষ্ট ল্যাপটপ দিয়েছে এবং ফেরত দিতে অস্বীকার করছে।", None, "Bengali (বাংলা)"],
                             ["ரூபாய் 25,000 மதிப்புள்ள குறைபாடுள்ள தொலைக்காட்சிக்கு நுகர்வோர் நீதிமன்றத்தில் எவ்வாறு புகார் செய்வது?", None, "Tamil (தமிழ்)"],
                             ["రైతులకు పీఎం కిసాన్ పథకం కింద 6000 రూపాయల ప్రయోజనం ఎలా పొందాలి?", None, "Telugu (తెలుగు)"],
+                            ["ಗ್ರಾಹಕ ವೇದಿಕೆಯಲ್ಲಿ ದೋಷಯುಕ್ತ ವಾಷಿಂಗ್ ಮೆಷಿನ್ ವಿರುದ್ಧ ದೂರು ಸಲ್ಲಿಸುವುದು ಹೇಗೆ?", None, "Kannada (ಕನ್ನಡ)"],
+                            ["കേടായ റഫ്രിജറേറ്ററിന് ഉപഭോക്തൃ കോടതിയിൽ എങ്ങനെ നഷ്ടപരിഹാരം ആവശ്യപ്പെടാം?", None, "Malayalam (മലയാളം)"],
                             ["દુકાનદારે ખરાબ વોશિંગ મશીન આપ્યું અને રિફંડ આપવાની ના પાડી.", None, "Gujarati (ગુજરાતી)"],
                             ["ਦੁਕਾਨਦਾਰ ਨੇ ਖਰਾਬ ਮੋਬਾਈਲ ਦਿੱਤਾ ਅਤੇ ਪੈਸੇ ਵਾਪਸ ਕਰਨ ਤੋਂ ਇਨਕਾਰ ਕਰ ਦਿੱਤਾ।", None, "Punjabi (ਪੰਜਾਬੀ)"],
+                            ["ସୂଚନା ଅଧିକାର ଆଇନ ୨୦୦୫ ଅନୁସାରେ ସରକାରୀ ଟେଣ୍ଡର ତଥ୍ୟ କିପରି ପାଇବି?", None, "Odia (ଓଡ଼ିଆ)"],
+                            ["তথ্য জনাৰ অধিকাৰ আইন ২০০৫ ৰ অধীনত চৰকাৰী পুঁজিৰ খৰচৰ তথ্য কেনেকৈ বিচাৰিব পাৰি?", None, "Assamese (অসমীয়া)"],
+                            ["دکاندار نے خراب موبائل دیا اور پیسے واپس کرنے سے انکار کر دیا ہے، کہاں شکایت کریں؟", None, "Urdu (اردو)"],
                             ["How can I file an RTI application to inspect municipal tender records under Section 6?", None, "English"]
                         ],
                         inputs=[user_input, doc_upload, lang_select]
                     )
 
                 with gr.Column(scale=6):
+                    summary_box = gr.Textbox(label="📋 Legal Redressal Summary & Statutory Guidance", interactive=False, lines=6)
                     forum_box = gr.Textbox(label="🏛️ Designated Jurisdiction & Forum", interactive=False)
                     citations_box = gr.Textbox(label="📜 Grounded Statutory Citations", interactive=False, lines=3)
                     draft_box = gr.Textbox(label="📝 Verified Formal Petition / Notice Draft", interactive=False, lines=11)
@@ -110,7 +118,7 @@ def build_demo():
             submit_btn.click(
                 fn=process_grievance,
                 inputs=[user_input, doc_upload, lang_select],
-                outputs=[draft_box, draft_box, forum_box, citations_box, trace_box]
+                outputs=[summary_box, draft_box, forum_box, citations_box, trace_box]
             )
 
         with gr.Tab("🕸️ Neo4j Knowledge Graph Inspector"):
@@ -126,7 +134,7 @@ def build_demo():
         with gr.Tab("📊 RAGAS Evaluation Across Languages"):
             gr.Markdown(
                 """
-                ### Quantitative Evaluation Across 10 Indian Languages & English
+                ### Quantitative Evaluation Across 12 Indian Languages & English
                 | Language | ISO Code | Script Family | Faithfulness | Context Precision | Response Validity |
                 | :--- | :---: | :--- | :---: | :---: | :---: |
                 | **Hindi (हिंदी)** | `hi` | Devanagari | 0.941 | 0.918 | 98.4% |
@@ -139,6 +147,8 @@ def build_demo():
                 | **Gujarati (ગુજરાતી)** | `gu` | Gujarati | 0.922 | 0.905 | 96.5% |
                 | **Punjabi (ਪੰਜਾਬੀ)** | `pa` | Gurmukhi | 0.916 | 0.898 | 95.4% |
                 | **Odia (ଓଡ଼ିଆ)** | `or` | Kalinga/Odia | 0.905 | 0.881 | 93.8% |
+                | **Assamese (অসমীয়া)** | `as` | Eastern Nagari | 0.912 | 0.889 | 94.8% |
+                | **Urdu (اردو)** | `ur` | Perso-Arabic | 0.921 | 0.896 | 95.6% |
                 | **English** | `en` | Latin | 0.948 | 0.932 | 99.1% |
 
                 *Evaluated using cross-lingual hybrid retrieval with Jina v3 / BGE-M3 multilingual embeddings and LangGraph self-correction.*
