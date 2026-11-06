@@ -38,7 +38,7 @@
     "id": 6,
     "question": "दुकानदाराने वॉशिंग मशीन नादुरुस्त दिल्यास कोणत्या कायद्यानुसार तक्रार करता येते?",
     "domain": "CONSUMER_GRIEVANCE",
-    "ground_truth": "ग्राहक संरक्षण कायदा २०१९ च्या कलम ३५ अंतर्गत जिल्हा ग्राहक आयोगाकडे तक्रार करता येते.",
+    "ground_truth": "ग्राहक संरक्षण कायदा २०१९ च्या कलम ३४ व ३५ अंतर्गत जिल्हा ग्राहक आयोगाकडे तक्रार करता येते.",
     "gold_citation": "Consumer Protection Act 2019, Section 35"
   },
   {
@@ -46,7 +46,7 @@
     "question": "What health coverage amount is provided under Ayushman Bharat PM-JAY?",
     "domain": "WELFARE_SCHEME",
     "ground_truth": "Rs 5 Lakh per family per year for secondary and tertiary hospitalization across empanelled hospitals.",
-    "gold_citation": "Ayushman Bharat PM-JAY Guidelines"
+    "gold_citation": "Ayushman Bharat PM-JAY Operational Guidelines"
   },
   {
     "id": 8,
@@ -54,5 +54,229 @@
     "domain": "RTI_QUERY",
     "ground_truth": "Rs 250 each day up to a maximum limit of Rs 25,000 under Section 20.",
     "gold_citation": "Right to Information Act 2005, Section 20"
+  },
+  {
+    "id": 9,
+    "question": "What is the pecuniary limit of the National Consumer Disputes Redressal Commission (NCDRC)?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Complaints where consideration exceeds two crore rupees under Section 58 of Consumer Protection Act 2019.",
+    "gold_citation": "Consumer Protection Act 2019, Section 58"
+  },
+  {
+    "id": 10,
+    "question": "What is the statutory limitation period for filing a consumer complaint?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Within 2 years from the date on which the cause of action arose under Section 69 of CPA 2019.",
+    "gold_citation": "Consumer Protection Act 2019, Section 69"
+  },
+  {
+    "id": 11,
+    "question": "What is the application fee for filing an RTI request to a central public authority?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Rupees 10 under Section 6 of the RTI Act 2005.",
+    "gold_citation": "Right to Information Act 2005, Section 6"
+  },
+  {
+    "id": 12,
+    "question": "How long does a public authority have to transfer an RTI application to another authority?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Within five days from the date of receipt under Section 6(3) of the RTI Act.",
+    "gold_citation": "Right to Information Act 2005, Section 6"
+  },
+  {
+    "id": 13,
+    "question": "Are senior citizens aged 70 and above eligible for Ayushman Bharat regardless of income?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "Yes, under Ayushman Vay Vandana Card, all senior citizens aged 70+ receive universal Rs 5 Lakh coverage.",
+    "gold_citation": "Ayushman Bharat PM-JAY Operational Guidelines"
+  },
+  {
+    "id": 14,
+    "question": "Who is disqualified from receiving the PM-KISAN cash benefit?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "Income tax payers, institutional landholders, and serving/retired government officers.",
+    "gold_citation": "PM-KISAN Operational Guidelines 2019"
+  },
+  {
+    "id": 15,
+    "question": "What liability does a product manufacturer face for a manufacturing defect causing harm?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Product liability action under Section 84 of the Consumer Protection Act 2019.",
+    "gold_citation": "Consumer Protection Act 2019, Section 84"
+  },
+  {
+    "id": 16,
+    "question": "How many days does an opposite party get to respond after receiving a consumer complaint?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Within 30 days, extendable by up to 15 days under Section 38 of CPA 2019.",
+    "gold_citation": "Consumer Protection Act 2019, Section 38"
+  },
+  {
+    "id": 17,
+    "question": "Within how many days must a Second Appeal under RTI be filed before the Information Commission?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Within ninety days from the date on which the decision was received under Section 19(3).",
+    "gold_citation": "Right to Information Act 2005, Section 19"
+  },
+  {
+    "id": 18,
+    "question": "What information is exempted from disclosure under Section 8 of the RTI Act?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "National security, commercial confidence, trade secrets, and personal information without public interest.",
+    "gold_citation": "Right to Information Act 2005, Section 8"
+  },
+  {
+    "id": 19,
+    "question": "What is the official online portal to file consumer cases across India?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "e-Daakhil portal (edaakhil.nic.in) under Section 35 of CPA 2019.",
+    "gold_citation": "Consumer Protection Act 2019, Section 35"
+  },
+  {
+    "id": 20,
+    "question": "How is the PM-KISAN financial benefit disbursed to farmers?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "Direct Benefit Transfer (DBT) into Aadhaar-linked bank accounts in three four-monthly installments of Rs 2000.",
+    "gold_citation": "PM-KISAN Operational Guidelines 2019"
+  },
+  {
+    "id": 21,
+    "question": "I bought a defective LED TV for Rs 42000, company refused to honour warranty, where do I complain?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "District Consumer Commission under Section 34 & 35 of Consumer Protection Act 2019.",
+    "gold_citation": "Consumer Protection Act 2019, Section 34"
+  },
+  {
+    "id": 22,
+    "question": "I booked an apartment worth Rs 85 Lakhs and the developer failed to deliver possession in 3 years.",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "State Consumer Disputes Redressal Commission under Section 47 of CPA 2019 (Rs 50 Lakhs to 2 Crores).",
+    "gold_citation": "Consumer Protection Act 2019, Section 47"
+  },
+  {
+    "id": 23,
+    "question": "Commercial hospital machinery purchase worth Rs 2.5 Crores arrived damaged, supplier refuses replacement.",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "National Consumer Disputes Redressal Commission under Section 58 of CPA 2019 (Above 2 Crores).",
+    "gold_citation": "Consumer Protection Act 2019, Section 58"
+  },
+  {
+    "id": 24,
+    "question": "CPIO rejected my application for public works expenditure citing confidential company data.",
+    "domain": "RTI_QUERY",
+    "ground_truth": "First Appeal before the First Appellate Authority under Section 19(1) of RTI Act 2005.",
+    "gold_citation": "Right to Information Act 2005, Section 19"
+  },
+  {
+    "id": 25,
+    "question": "Can information concerning life and liberty be delayed beyond 48 hours under RTI?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "No, Section 7(1) mandates provision within 48 hours for life and liberty matters.",
+    "gold_citation": "Right to Information Act 2005, Section 7(1)"
+  },
+  {
+    "id": 26,
+    "question": "माझ्या शेतात पीएम किसान योजनेचा हप्ता जमा झालेला नाही, कोणती पूर्तता आवश्यक आहे?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "पीएम किसान मार्गदर्शक तत्त्वानुसार आधार ई-केवायसी आणि बँक खात्याशी आधार संलग्न असणे आवश्यक आहे.",
+    "gold_citation": "PM-KISAN Operational Guidelines 2019"
+  },
+  {
+    "id": 27,
+    "question": "आयुष्मान भारत योजनेंतर्गत कोणत्या आजारांवर मोफत उपचार मिळतात?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "नोंदणीकृत रुग्णालयांमध्ये दुय्यम आणि तृतीयक उपचारांसाठी प्रति कुटुंब वार्षिक ५ लाख रुपयांपर्यंत मोफत उपचार.",
+    "gold_citation": "Ayushman Bharat PM-JAY Operational Guidelines"
+  },
+  {
+    "id": 28,
+    "question": "ग्राहक संरक्षण कायद्यानुसार ग्राहकांना कोणकोणते ६ मूलभूत अधिकार दिलेले आहेत?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "कलम २(९) अंतर्गत सुरक्षितता, माहिती, निवड, सुनावणी, तक्रार निवारण आणि ग्राहक शिक्षणाचा अधिकार.",
+    "gold_citation": "Consumer Protection Act 2019, Section 2(9)"
+  },
+  {
+    "id": 29,
+    "question": "शासकीय कामांच्या निविदांची माहिती मागवण्यासाठी कोणत्या कलमांतर्गत अर्ज करावा लागतो?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "माहिती अधिकार कायदा २००५ च्या कलम ६ अंतर्गत जन माहिती अधिकाऱ्याकडे अर्ज करावा लागतो.",
+    "gold_citation": "Right to Information Act 2005, Section 6"
+  },
+  {
+    "id": 30,
+    "question": "दुकानदार एमआरपीपेक्षा जास्त पैसे आकारत असल्यास ग्राहक न्यायालयात दाद मागता येते का?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "होय, अनुचित व्यापारी प्रथा मानून कलम ३५ अंतर्गत जिल्हा ग्राहक आयोगाकडे तक्रार दाखल करता येते.",
+    "gold_citation": "Consumer Protection Act 2019, Section 35"
+  },
+  {
+    "id": 31,
+    "question": "What is the fee if information is not provided within the 30-day statutory limit under RTI?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Information must be provided free of charge under Section 7(6) of RTI Act 2005.",
+    "gold_citation": "Right to Information Act 2005, Section 7(1)"
+  },
+  {
+    "id": 32,
+    "question": "Can a consumer complaint be filed electronically without hiring a lawyer?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Yes, complainant can file directly via e-Daakhil under Section 35 of CPA 2019 without mandatory advocate.",
+    "gold_citation": "Consumer Protection Act 2019, Section 35"
+  },
+  {
+    "id": 33,
+    "question": "Is cultivable land holding mandatory for PM-KISAN cash assistance?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "Yes, the farmer family must own cultivable land as per state land records.",
+    "gold_citation": "PM-KISAN Operational Guidelines 2019"
+  },
+  {
+    "id": 34,
+    "question": "Does Ayushman Bharat require any enrolment fee or premium from the beneficiary?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "No, it is 100% government funded with zero fee or premium for eligible beneficiaries.",
+    "gold_citation": "Ayushman Bharat PM-JAY Operational Guidelines"
+  },
+  {
+    "id": 35,
+    "question": "What grounds exempt a public authority from disclosing information under RTI Section 8(1)(j)?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Personal information having no relationship to any public activity or which causes unwarranted invasion of privacy.",
+    "gold_citation": "Right to Information Act 2005, Section 8"
+  },
+  {
+    "id": 36,
+    "question": "What relief can a District Commission award to an aggrieved consumer under CPA 2019?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Removal of defects, replacement of goods, refund of price, and compensation for loss or injury under Section 38.",
+    "gold_citation": "Consumer Protection Act 2019, Section 38"
+  },
+  {
+    "id": 37,
+    "question": "What happens if a CPIO gives misleading information knowingly?",
+    "domain": "RTI_QUERY",
+    "ground_truth": "Information Commission can impose a penalty of Rs 250 per day up to Rs 25,000 under Section 20.",
+    "gold_citation": "Right to Information Act 2005, Section 20"
+  },
+  {
+    "id": 38,
+    "question": "Can an appeal be filed against the order of the District Consumer Commission?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Yes, appeal lies to the State Commission within 45 days under Section 41 & 47 of CPA 2019.",
+    "gold_citation": "Consumer Protection Act 2019, Section 47"
+  },
+  {
+    "id": 39,
+    "question": "How are welfare benefits protected against ghost beneficiaries in PM-KISAN?",
+    "domain": "WELFARE_SCHEME",
+    "ground_truth": "Mandatory biometric/OTP Aadhaar eKYC, land record seeding, and NPCI DBT verification.",
+    "gold_citation": "PM-KISAN Operational Guidelines 2019"
+  },
+  {
+    "id": 40,
+    "question": "What constitutes deficiency of service under the Consumer Protection Act 2019?",
+    "domain": "CONSUMER_GRIEVANCE",
+    "ground_truth": "Any fault, imperfection, shortcoming or inadequacy in quality, nature and manner of performance required by law.",
+    "gold_citation": "Consumer Protection Act 2019, Section 2(9)"
   }
 ]
